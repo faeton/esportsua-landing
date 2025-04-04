@@ -1,7 +1,5 @@
 # esports.ua - Ukrainian Esports Portal
 
-![esports.ua Logo](https://via.placeholder.com/150x50?text=esports.ua)
-
 ## Overview
 
 This repository contains a static version of the esports.ua website - a comprehensive portal dedicated to the Ukrainian cybersport community. The project aims to unite gamers, teams, tournament organizers, and enthusiasts under one digital roof.
