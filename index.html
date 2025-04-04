@@ -44,40 +44,63 @@
       </header>
 
       <main class="flex-grow">
-        <!-- Hero Section - Made smaller in height -->
-        <section class="hero" style="padding: 3rem 0;">
+        <!-- Hero Section -->
+        <section class="hero">
           <div class="container">
             <div class="hero-content">
               <div class="hero-text">
                 <h1>Український кіберспорт об'єднується</h1>
                 <p>Готуємося до запуску найбільшого українського кіберспортивного порталу.
                   Будемо разом розвивати кіберспорт в Україні!</p>
+                <div class="hero-buttons">
+                  <a href="#features" class="btn btn-primary btn-lg">Дізнатися більше</a>
+                  <a href="mailto:ivan@esports.ua" class="btn btn-outline btn-lg">Запропонувати ідею</a>
+                </div>
+              </div>
+              
+              <div class="hero-image">
+                <div class="hero-card">
+                  <div class="card-content">
+                    <div>
+                      <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-1.2.1&auto=format&fit=crop&w=800" 
+                          alt="Професійний кіберспорт в Україні" />
+                      <div class="card-footer">
+                        <div>
+                          <h3>Запуск скоро</h3>
+                          <p>Приєднуйтесь до нас!</p>
+                        </div>
+                        <div class="status-indicator"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        <!-- Restructuring Section (New) -->
-        <section id="restructuring" class="features" style="background-color: var(--ukraine-blue); color: white; padding: 4rem 0;">
+        <!-- Restructuring Section -->
+        <section id="restructuring" class="restructuring-section">
           <div class="container">
             <div class="section-header">
-              <h2 style="color: white;">Реструктуризація проекту</h2>
+              <h2>Реструктуризація проекту</h2>
+              <p>Наразі ми повністю перебудовуємо esports.ua на новій, більш сучасній платформі</p>
             </div>
-            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-              <p style="margin-bottom: 1rem; color: rgba(255, 255, 255, 0.9);">
+            <div class="restructuring-content">
+              <p>
                 Якщо ви потрапили на цю сторінку замість старого вебсайту, не хвилюйтеся! 
                 Ми проводимо повну реструктуризацію та оновлення нашого порталу, щоб зробити його 
                 ще кращим, більш доступним і корисним для всієї української кіберспортивної спільноти.
               </p>
-              <p style="margin-bottom: 1rem; color: rgba(255, 255, 255, 0.9);">
+              <p>
                 Наша мета — створити справді комунальну платформу, де кожен ентузіаст кіберспорту зможе знайти 
                 своє місце, долучитися до проектів та впливати на розвиток спільноти.
               </p>
-              <p style="margin-bottom: 1rem; color: rgba(255, 255, 255, 0.9);">
+              <p>
                 Всі сторінки старого сайту тимчасово перенаправляються на цю лендінг-сторінку. 
                 Незабаром ми запустимо оновлений портал з усіма функціями та новим дизайном.
               </p>
-              <a href="mailto:ivan@esports.ua" class="btn btn-yellow" style="margin-top: 1rem;">ivan@esports.ua</a>
+              <a href="mailto:ivan@esports.ua" class="btn btn-yellow" style="margin-top: 1rem;">Зв'язатися з нами</a>
             </div>
           </div>
         </section>
@@ -177,32 +200,32 @@
           </div>
         </section>
 
-        <!-- Developers Section (New) -->
-        <section id="developers" class="features" style="background-color: var(--gray-50);">
+        <!-- Developers Section -->
+        <section id="developers" class="features">
           <div class="container">
             <div class="section-header">
               <h2>Приєднуйтеся до команди розробників</h2>
               <p>Ми шукаємо IT-фахівців, які допоможуть нам розбудувати новий esports.ua</p>
             </div>
 
-            <div style="max-width: 800px; margin: 0 auto; text-align: center; padding-bottom: 2rem;">
+            <div class="text-center" style="max-width: 800px; margin: 0 auto;">
               <p style="margin-bottom: 1.5rem;">
                 Для створення повноцінної платформи нам потрібні розробники з досвідом у таких технологіях:
               </p>
               
-              <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-bottom: 2rem;">
-                <div style="background-color: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 300px;">
-                  <h3 style="margin-bottom: 1rem; color: var(--ukraine-blue);">Discord-розробка</h3>
-                  <p style="text-align: left;">
+              <div class="dev-container">
+                <div class="dev-box">
+                  <h3>Discord-розробка</h3>
+                  <p>
                     • Розробка Discord-ботів<br>
                     • Інтеграція з Discord API<br>
                     • Створення взаємодії між ботом і веб-сайтом<br>
                     • Знання Python
                   </p>
                 </div>
-                <div style="background-color: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 300px;">
-                  <h3 style="margin-bottom: 1rem; color: var(--ukraine-blue);">Web-розробка</h3>
-                  <p style="text-align: left;">
+                <div class="dev-box">
+                  <h3>Web-розробка</h3>
+                  <p>
                     • Frontend: HTML/CSS/JS<br>
                     • Backend: Python<br>
                     • Бази даних<br>
@@ -221,24 +244,22 @@
           </div>
         </section>
 
-        <!-- Contact Section (Modified to remove form and focus on email) -->
+        <!-- Contact Section -->
         <section id="contact" class="contact">
           <div class="container">
             <div class="contact-container">
               <div class="section-header">
                 <h2>Зв'яжіться з нами</h2>
-                <p>Маєте ідеї чи пропозиції? Бажаєте долучитись до проекту? Напишіть нам на електронну пошту!</p>
+                <p>Маєте ідеї чи пропозиції? Бажаєте долучитись до проекту?</p>
               </div>
 
-              <div class="contact-form-container" style="text-align: center; padding: 3rem;">
-                <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Електронна пошта для зв'язку</h3>
-                <p style="margin-bottom: 1.5rem;">
+              <div class="contact-form-container">
+                <h3>Електронна пошта для зв'язку</h3>
+                <p>
                   Надішліть свої ідеї, питання чи пропозиції щодо співпраці напряму на нашу електронну пошту:
                 </p>
-                <a href="mailto:ivan@esports.ua" style="display: inline-block; font-size: 1.25rem; color: var(--ukraine-blue); font-weight: 600;">
-                  ivan@esports.ua
-                </a>
-                <p style="margin-top: 2rem; color: var(--gray-600);">
+                <a href="mailto:ivan@esports.ua" class="contact-email">ivan@esports.ua</a>
+                <p>
                   Ми відповідаємо на всі повідомлення протягом 24-48 годин.
                 </p>
               </div>
