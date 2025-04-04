@@ -10,12 +10,7 @@
     <meta property="og:title" content="esports.ua - Український кіберспорт" />
     <meta property="og:description" content="Український кіберспортивний портал, що об'єднує всіх гравців та ентузіастів кіберспорту в Україні." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@esports_ua" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    
     <!-- Import Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,17 +25,12 @@
       <header class="header">
         <div class="container header-container">
           <div class="logo">
-            <div class="logo-icon">
-              <span>E</span>
-            </div>
-            <h1>
-              <span class="text-blue">esports</span>
-              <span class="text-yellow">.ua</span>
-            </h1>
+            <img src="esports-ua.png" alt="esports.ua logo" height="50">
           </div>
           <nav class="main-nav">
             <a href="#features">Про проект</a>
-            <a href="#contact">Контакти</a>
+            <a href="#restructuring">Реструктуризація</a>
+            <a href="#developers">Приєднатися</a>
             <a href="#contact" class="btn btn-primary">Зв'язатися з нами</a>
           </nav>
           <button class="mobile-menu-btn">
@@ -54,8 +44,8 @@
       </header>
 
       <main class="flex-grow">
-        <!-- Hero Section -->
-        <section class="hero">
+        <!-- Hero Section - Made smaller in height -->
+        <section class="hero" style="padding: 3rem 0;">
           <div class="container">
             <div class="hero-content">
               <div class="hero-text">
@@ -64,7 +54,7 @@
                   Будемо разом розвивати кіберспорт в Україні!</p>
                 <div class="hero-buttons">
                   <a href="#features" class="btn btn-primary btn-lg">Дізнатися більше</a>
-                  <a href="#contact" class="btn btn-outline btn-lg">Запропонувати ідею</a>
+                  <a href="mailto:ivan@esports.ua" class="btn btn-outline btn-lg">Запропонувати ідею</a>
                 </div>
               </div>
               
@@ -83,6 +73,32 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Restructuring Section (New) -->
+        <section id="restructuring" class="features" style="background-color: var(--ukraine-blue); color: white; padding: 4rem 0;">
+          <div class="container">
+            <div class="section-header">
+              <h2 style="color: white;">Реструктуризація проекту</h2>
+              <p style="color: rgba(255, 255, 255, 0.9);">Наразі ми повністю перебудовуємо esports.ua на новій, більш сучасній платформі</p>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+              <p style="margin-bottom: 1rem; color: rgba(255, 255, 255, 0.9);">
+                Якщо ви потрапили на цю сторінку замість старого вебсайту, не хвилюйтеся! 
+                Ми проводимо повну реструктуризацію та оновлення нашого порталу, щоб зробити його 
+                ще кращим, більш доступним і корисним для всієї української кіберспортивної спільноти.
+              </p>
+              <p style="margin-bottom: 1rem; color: rgba(255, 255, 255, 0.9);">
+                Наша мета — створити справді комунальну платформу, де кожен ентузіаст кіберспорту зможе знайти 
+                своє місце, долучитися до проектів та впливати на розвиток спільноти.
+              </p>
+              <p style="margin-bottom: 1rem; color: rgba(255, 255, 255, 0.9);">
+                Всі сторінки старого сайту тимчасово перенаправляються на цю лендінг-сторінку. 
+                Незабаром ми запустимо оновлений портал з усіма функціями та новим дизайном.
+              </p>
+              <a href="mailto:ivan@esports.ua" class="btn btn-yellow" style="margin-top: 1rem;">Зв'язатися з нами</a>
             </div>
           </div>
         </section>
@@ -182,56 +198,70 @@
           </div>
         </section>
 
-        <!-- Coming Soon Section -->
-        <section class="coming-soon">
+        <!-- Developers Section (New) -->
+        <section id="developers" class="features" style="background-color: var(--gray-50);">
           <div class="container">
-            <div class="coming-soon-content">
-              <h2>Готуємося до запуску!</h2>
-              <p>Ми активно працюємо над розробкою найбільшого українського кіберспортивного порталу.
-                Підпишіться на наші оновлення, щоб першими дізнатися про запуск.</p>
+            <div class="section-header">
+              <h2>Приєднуйтеся до команди розробників</h2>
+              <p>Ми шукаємо IT-фахівців, які допоможуть нам розбудувати новий esports.ua</p>
+            </div>
+
+            <div style="max-width: 800px; margin: 0 auto; text-align: center; padding-bottom: 2rem;">
+              <p style="margin-bottom: 1.5rem;">
+                Для створення повноцінної платформи нам потрібні розробники з досвідом у таких технологіях:
+              </p>
               
-              <div class="subscribe-form">
-                <input type="email" placeholder="Ваша електронна пошта" disabled>
-                <button class="btn btn-yellow" disabled>Підписатися</button>
+              <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-bottom: 2rem;">
+                <div style="background-color: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 300px;">
+                  <h3 style="margin-bottom: 1rem; color: var(--ukraine-blue);">Discord-розробка</h3>
+                  <p style="text-align: left;">
+                    • Розробка Discord-ботів<br>
+                    • Інтеграція з Discord API<br>
+                    • Створення взаємодії між ботом і веб-сайтом<br>
+                    • Знання Python
+                  </p>
+                </div>
+                <div style="background-color: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 300px;">
+                  <h3 style="margin-bottom: 1rem; color: var(--ukraine-blue);">Web-розробка</h3>
+                  <p style="text-align: left;">
+                    • Frontend: HTML/CSS/JS<br>
+                    • Backend: Python<br>
+                    • Бази даних<br>
+                    • API-інтеграції
+                  </p>
+                </div>
               </div>
+              
+              <p style="margin-bottom: 1.5rem;">
+                Якщо ви хочете долучитися до розвитку кіберспорту в Україні та маєте досвід у цих 
+                напрямках — напишіть нам! Ми шукаємо як добровольців, так і людей для постійної роботи.
+              </p>
+              
+              <a href="mailto:ivan@esports.ua" class="btn btn-primary">Написати на ivan@esports.ua</a>
             </div>
           </div>
         </section>
 
-        <!-- Contact Form -->
+        <!-- Contact Section (Modified to remove form and focus on email) -->
         <section id="contact" class="contact">
           <div class="container">
             <div class="contact-container">
               <div class="section-header">
                 <h2>Зв'яжіться з нами</h2>
-                <p>Маєте ідеї чи пропозиції? Бажаєте долучитись до проекту? Напишіть нам!</p>
+                <p>Маєте ідеї чи пропозиції? Бажаєте долучитись до проекту? Напишіть нам на електронну пошту!</p>
               </div>
 
-              <div class="contact-form-container">
-                <form class="contact-form" action="#" method="post">
-                  <div class="form-group">
-                    <label for="name">Ваше ім'я</label>
-                    <input type="text" id="name" name="name" placeholder="Ім'я" disabled>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="email">Електронна пошта</label>
-                    <input type="email" id="email" name="email" placeholder="email@example.com" disabled>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="message">Повідомлення</label>
-                    <textarea id="message" name="message" placeholder="Ваше повідомлення" rows="4" disabled></textarea>
-                  </div>
-
-                  <div class="form-submit">
-                    <button type="submit" class="btn btn-primary btn-full" disabled>Надіслати</button>
-                  </div>
-                </form>
-
-                <div class="alternative-contact">
-                  <p>Або напишіть напряму на <a href="mailto:ivan@esports.ua">ivan@esports.ua</a></p>
-                </div>
+              <div class="contact-form-container" style="text-align: center; padding: 3rem;">
+                <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Електронна пошта для зв'язку</h3>
+                <p style="margin-bottom: 1.5rem;">
+                  Надішліть свої ідеї, питання чи пропозиції щодо співпраці напряму на нашу електронну пошту:
+                </p>
+                <a href="mailto:ivan@esports.ua" style="display: inline-block; font-size: 1.25rem; color: var(--ukraine-blue); font-weight: 600;">
+                  ivan@esports.ua
+                </a>
+                <p style="margin-top: 2rem; color: var(--gray-600);">
+                  Ми відповідаємо на всі повідомлення протягом 24-48 годин.
+                </p>
               </div>
             </div>
           </div>
@@ -243,13 +273,7 @@
         <div class="container">
           <div class="footer-top">
             <div class="footer-logo">
-              <div class="logo-icon">
-                <span>E</span>
-              </div>
-              <h2>
-                <span class="text-blue">esports</span>
-                <span class="text-yellow">.ua</span>
-              </h2>
+              <img src="esports-ua.png" alt="esports.ua logo" height="50" style="filter: brightness(0) invert(1);">
             </div>
 
             <div class="social-links">
@@ -293,6 +317,8 @@
               <h3>Швидкі посилання</h3>
               <ul>
                 <li><a href="#features">Про проект</a></li>
+                <li><a href="#restructuring">Реструктуризація</a></li>
+                <li><a href="#developers">Приєднатися</a></li>
                 <li><a href="#contact">Зв'язатися з нами</a></li>
               </ul>
             </div>
