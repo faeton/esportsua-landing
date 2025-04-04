@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Сторінку не знайдено | esports.ua</title>
+    <meta name="description" content="Сторінку не знайдено. esports.ua - український кіберспортивний портал." />
+
+    <!-- Import Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="min-h-screen flex flex-col">
+      <!-- Header -->
+      <header class="header">
+        <div class="container header-container">
+          <div class="logo">
+            <img src="esports-ua.png" alt="esports.ua logo" height="50">
+          </div>
+        </div>
+      </header>
+
+      <main class="flex-grow">
+        <!-- 404 Section -->
+        <section class="features" style="padding: 6rem 0;">
+          <div class="container">
+            <div class="section-header">
+              <h1 style="font-size: 4rem; color: var(--ukraine-blue);">404</h1>
+              <h2>Сторінку не знайдено</h2>
+              <p>Вибачте, але сторінку, яку ви шукаєте, не існує або була переміщена.</p>
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+              <p style="margin-bottom: 2rem;">
+                Наразі ми проводимо повну реструктуризацію порталу esports.ua, тому деякі сторінки 
+                можуть бути тимчасово недоступні. Скоро ми запустимо повноцінний оновлений портал.
+              </p>
+              
+              <a href="index.html" class="btn btn-primary btn-lg">Повернутися на головну</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-top">
+            <div class="footer-logo">
+              <img src="esports-ua.png" alt="esports.ua logo" height="50" style="filter: brightness(0) invert(1);">
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p>&copy; <span id="current-year">2025</span> esports.ua. Усі права захищено.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      // Add current year to footer
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
