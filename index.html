@@ -10,7 +10,7 @@
     <meta property="og:title" content="esports.ua - Український кіберспорт" />
     <meta property="og:description" content="Український кіберспортивний портал, що об'єднує всіх гравців та ентузіастів кіберспорту в Україні." />
     <meta property="og:type" content="website" />
-
+    <meta property="og:image" content="esports-ua.png" />
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-21SGB14C6T"></script>
@@ -41,7 +41,7 @@
           <nav class="main-nav">
             <a href="#features">Про проект</a>
             <a href="#developers">Приєднатися</a>
-            <a href="#contact" class="btn btn-primary">Зв'язатися з нами</a>
+            <a href="#contact">Контакти</a>
           </nav>
           <button class="mobile-menu-btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -54,10 +54,20 @@
       </header>
 
       <main class="flex-grow">
+        <!-- Banner with animated text -->
+        <div class="hero-banner">
+          <div class="container">
+            <div class="hero-banner-content">
+              <h1 class="animate-fadeInUp">Український кіберспорт об'єднується</h1>
+              <p class="animate-fadeInUp">Ласкаво просимо на майбутній портал українського кіберспорту</p>
+            </div>
+          </div>
+        </div>
+
         <section id="features" class="features">
           <div class="container">
             <div class="section-header">
-              <h1>Що чекати на esports.ua</h1>
+              <h2>Що чекати на esports.ua</h2>
               <p>Наша мета — створити єдиний комплексний ресурс для українського кіберспортивного ком'юніті</p>
             </div>
 
@@ -148,6 +158,20 @@
           </div>
         </section>
 
+        <!-- Call to action -->
+        <section class="cta-section">
+          <div class="container">
+            <div class="cta-content">
+              <h2>Об'єднуймо український кіберспорт разом</h2>
+              <p>Долучайтеся до творення першого українського кіберспортивного порталу</p>
+              <div class="cta-buttons">
+                <a href="#developers" class="btn btn-yellow">Приєднатися до команди</a>
+                <a href="https://discord.gg/6faFBcX6TA" class="btn btn-outline">Наш Discord</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <!-- Developers Section -->
         <section id="developers" class="features">
           <div class="container">
@@ -157,12 +181,10 @@
             </div>
 
             <div class="text-center" style="max-width: 800px; margin: 0 auto;">
-              <p style="margin-bottom: 1.5rem;">
-                Для створення повноцінної платформи нам потрібні розробники з досвідом у таких технологіях:
-              </p>
+              <p>Для створення повноцінної платформи нам потрібні розробники з досвідом у таких технологіях:</p>
               
               <div class="dev-container">
-                <div class="dev-box">
+                <div class="dev-box animate-float">
                   <h3>Discord-розробка</h3>
                   <p>
                     • Розробка Discord-ботів<br>
@@ -171,7 +193,7 @@
                     • Знання Python
                   </p>
                 </div>
-                <div class="dev-box">
+                <div class="dev-box animate-float" style="animation-delay: 0.3s">
                   <h3>Web-розробка</h3>
                   <p>
                     • Frontend: HTML/CSS/JS<br>
@@ -182,12 +204,12 @@
                 </div>
               </div>
               
-              <p style="margin-bottom: 1.5rem;">
+              <p>
                 Якщо ви хочете долучитися до розвитку кіберспорту в Україні та маєте досвід у цих 
                 напрямках — напишіть нам! Ми шукаємо як добровольців, так і людей для постійної роботи.
               </p>
               
-              <a href="mailto:ivan@esports.ua" class="btn btn-primary">Написати на ivan@esports.ua</a>
+              <a href="mailto:ivan@esports.ua" class="btn btn-primary btn-lg">Написати на ivan@esports.ua</a>
             </div>
           </div>
         </section>
@@ -219,13 +241,13 @@
             <div class="footer-info">
               <h3>Контакти</h3>
               <p>Електронна пошта: <a href="mailto:ivan@esports.ua">ivan@esports.ua</a></p>
+              <p>Discord: <a href="https://discord.gg/6faFBcX6TA">Приєднатися</a></p>
             </div>
 
             <div class="footer-info">
               <h3>Швидкі посилання</h3>
               <ul>
                 <li><a href="#features">Про проект</a></li>
-                <li><a href="#restructuring">Реструктуризація</a></li>
                 <li><a href="#developers">Приєднатися</a></li>
                 <li><a href="#contact">Зв'язатися з нами</a></li>
               </ul>
@@ -242,6 +264,12 @@
     <script>
       // Add current year to footer
       document.getElementById('current-year').textContent = new Date().getFullYear();
+      
+      // Mobile menu functionality
+      document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+        const mainNav = document.querySelector('.main-nav');
+        mainNav.style.display = mainNav.style.display === 'flex' ? 'none' : 'flex';
+      });
     </script>
   </body>
 </html>
